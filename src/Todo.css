@@ -7,6 +7,7 @@
     background: #c0c0e4;
     padding: 60px 0;
     height: 500px;
+    max-height: 500px;
     border-radius: 10px;
     height: 400px;
 }
@@ -60,6 +61,9 @@ input[type="text"]:focus-visible{
 }
 .cart-item {
     margin-top: 30px;
+    max-height: none;
+    overflow-y: scroll;
+    height: 160px;
 }
 ol.items {
     font-size: 20px;
