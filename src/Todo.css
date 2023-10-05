@@ -37,6 +37,7 @@ button.plus-button {
     align-items: center;
     border-radius: 50%;
     background: #0000ff61;
+    color: black !important;
 }
 button.remove-button {
     display: flex;
@@ -49,6 +50,7 @@ button.remove-button {
     align-items: center;
     border-radius: 50%;
     background: #0000ff61;
+    color: black !important;
 }
 input[type="text"]::placeholder{
     color: black !important;
@@ -79,6 +81,6 @@ ol.items li {
 }
 @media only screen and (max-width: 480px) {
     .main{
-        width: 70%;
+        width: 100%;
     }
 }
